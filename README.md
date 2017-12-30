@@ -1,4 +1,4 @@
-# Topology for Data Analysis
+# Topology for Data Analysis using R
 ============================
 
 An example of an application of topological ideas in data analysis. We use R package *"TDA"* to study a car-accidents dataset. 
