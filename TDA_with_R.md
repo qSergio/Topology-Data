@@ -30,7 +30,7 @@ The neighborhoods can be whatever we want and the data points can be numbers or 
 
 We need to give some definitions, but all are very intuitive. From our point space or dataset, we define the following notion: a simplex. It is easy to visualize what we mean.
 
-<img  src="simplices.png" width="430" height="210" ></img>
+<img  src="simplices.png" width="500" height="180" ></img>
 
 So, a 0-simplex is a point. Every point in our data is a 0-simplex. If we have a "line" joining two points that is a 1-simplex, and so on. Of course, a 4-simplex and higher analogues are difficult for us to visualize. We can immediately see what connectedness is. In the image, we have four connected components, a 0-simplex, a 1-simplx, a 2-simplex and a 3-simplex. If we join them with, for example lines we will connect the dataset into one single component. Like this:
 
@@ -38,7 +38,7 @@ So, a 0-simplex is a point. Every point in our data is a 0-simplex. If we have a
 
 The next notion is the neighborhood. We'll use euclidean distance to say when our points are close, we'll use circles as neighborhoods. This distance depends on a parameter, the radius of the circle. If we change these parameter we change the size of the neighborhood.
 
-<img  src="circ.png" width="430" height="210" ></img>
+<img  src="circ.png" width="460" height="270" ></img>
 
 Persistence is an algorithm that changes this parameter from zero to a very large value, one that covers the entire set. With this maximal radius we enclose all our dataset. The algorithm __[2]__ can be put as follows:
 
