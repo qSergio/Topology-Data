@@ -1,7 +1,9 @@
 # Topology for Data Analysis using R
 ============================
 
-An example of an application of topological ideas in data analysis. It's a simple exercise that uses the R package *"TDA"* to study a car-accidents dataset. 
+An example of an application of topological ideas in data analysis. 
+
+It's a simple exercise that uses the R package *"TDA"* to study a car-accidents dataset. 
 
 *Topology* can be used to support Machine Learning to obtain important and robust features before starting the usual machinery. __ML__ benefits from geometrical insight, showing this, with a nice problem, is the point of this example.
 
